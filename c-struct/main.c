@@ -13,5 +13,5 @@ int main(void)
 {
     struct User user1 = {"Adedoyin Emmanuel",17,"42, kuburat Agbeduyi street"};
 
-    printf("My name is %s, I am %d and I live at %s", user1.name, user1.age, user1.address);
+    printf("My name is %s, I am %d years old. I live at %s\n", user1.name, user1.age, user1.address);
 }
