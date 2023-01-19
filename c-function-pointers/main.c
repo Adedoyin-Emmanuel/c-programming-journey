@@ -1,14 +1,33 @@
 #include <stdio.h>
+#include "main.h"
 
-/**
- * main - prints hello world to the terminal
- * Return: 0 on success
- *
- */
+int add(int a, int b)
+{
+    return (a + b);
+}
+
+int sub(int a, int b)
+{
+    return (a - b);
+}
+
+
+int mul(int a, int b)
+{
+    return (a * b);
+}
+
+
+int div(int a, int b)
+{
+    return (a / b);
+}
+
 
 int main(void)
-{
-    printf("Hello world");
+{   
+    //declare a function pointer
+    int (*operation)(int, int);
 
-    return (0);
+    
 }
