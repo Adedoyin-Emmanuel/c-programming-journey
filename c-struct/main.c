@@ -2,7 +2,7 @@
 
 struct User
 {
-    char name[10];
+    char name[20];
     int age;
     char address[50];
 
@@ -11,5 +11,7 @@ struct User
 
 int main(void)
 {
-    struct User user1 = {"Adedoyin",17,"42, kuburat Agbeduyi street"};
+    struct User user1 = {"Adedoyin Emmanuel",17,"42, kuburat Agbeduyi street"};
+
+    printf("My name is %s, I am %d and I live at %s", user1.name, user1.age, user1.address);
 }
