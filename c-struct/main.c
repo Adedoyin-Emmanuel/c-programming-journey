@@ -7,3 +7,9 @@ struct User
     char address[30];
 
 };
+
+
+int main(void)
+{
+    
+}
