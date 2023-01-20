@@ -29,9 +29,5 @@ int main(void)
     //declare a function pointer
     int (*operation)(int, int);
 
-    operation = add;
 
-    operation(5, 6);
-
-    printf("%d",*operation);
 }
