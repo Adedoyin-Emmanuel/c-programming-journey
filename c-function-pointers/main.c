@@ -33,5 +33,5 @@ int main(void)
 
     operation(5, 6);
 
-    printf("%d",&operation);
+    printf("%d",*operation);
 }
