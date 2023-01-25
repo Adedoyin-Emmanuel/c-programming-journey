@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    bool x = true;
+    bool x = false;
 
     if (x)
         printf("X is true");
