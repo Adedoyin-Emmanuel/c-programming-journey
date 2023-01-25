@@ -44,6 +44,9 @@ int main(void)
 {
     //add the printf function
     printf("Hello World");
+
+    //return 0 on program success
+    return (0);
 }
 
 
