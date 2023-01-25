@@ -1,6 +1,13 @@
 #include <stdio.h>
+#include <bool.h>
+
 
 int main(void)
 {
-    printf("Hello world\n");
+    bool x = true;
+
+    if (x)
+        printf("X is true");
+    else
+        printf("X is false");
 }
