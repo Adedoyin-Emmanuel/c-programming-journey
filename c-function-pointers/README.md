@@ -10,21 +10,10 @@ A function pointer is a variable that points to the memory address of a function
 #include <stdio.h>
 
 /**
- *main - prints hello world using a pointer
+ *main - prints hello world
  *Return: 0
  */
 int main(void)
 {
-    char name[20];
-
-
-    //a pointer that points to the name variable
-    char *ptr_name = &name;
-
-    ptr_name = "Adedoyin Emmanuel";
-
-    for(int i = 0; i < sizeof(name); i++)
-    {
-        printf("Hello World, My name is %s", *ptr_name[i]);
-    }
+    printf("Hello World\n")
 }
