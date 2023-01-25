@@ -3,6 +3,7 @@
 ## What you would learn
 
 ### How to declare variables and assign types to it
+### Format Specifiers
 ### How to add, subtract, divide, multiply in C
 ### Deal with various math symobls
 ### Carry out numerous arithmetic operations in C
@@ -81,3 +82,28 @@ We would talk about the other data types later.
 ### How to add, subtract, divide, multiply in C
 
 First we have to create a variable perform the arithmetic operations
+
+## Additions in C Programming Language
+
+```c
+
+#include <stdio.h>
+
+int main(void){
+
+    int x = 10;
+
+    int y = 50;
+    
+    int result = x + y;
+    //you could also create the 2 variables on the same line, they must be of the same data type
+
+    /*
+    eg 
+
+    int x = 10 , y = 50;
+
+    */
+
+    printf("%d",result);
+}
