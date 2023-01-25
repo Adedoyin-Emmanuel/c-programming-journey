@@ -25,3 +25,5 @@ First you specify the type of variable
 ##### Char
 ##### Unsigned Long Int
 ##### Boolean
+##### Null
+##### Struct || Objects
