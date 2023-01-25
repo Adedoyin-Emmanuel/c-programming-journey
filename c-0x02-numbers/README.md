@@ -77,7 +77,18 @@ float my_PI = 3.142;
 
 We would talk about the other data types later.
 
+### Format Specifiers
 
+Format specifiers are special characters that are used to interprete the kind of datatype a variable is holding when outputing that variable.
+
+we have different types of format specifiers
+
+#### String Format Specifier (%s)
+#### Number Format Specifier (%d or %i)
+#### Long int Format Specifier (%lu) || usually used with the sizeof() function
+#### Decimal || Float Format Specifiers (%d)
+#### Hexadecimal Format Specifier (%x)
+#### Octal Format Specifier 
 
 ### How to add, subtract, divide, multiply in C
 
