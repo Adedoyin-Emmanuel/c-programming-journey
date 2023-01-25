@@ -88,7 +88,7 @@ we have different types of format specifiers
 #### Long int Format Specifier (%lu) || usually used with the sizeof() function
 #### Decimal || Float Format Specifiers (%d)
 #### Hexadecimal Format Specifier (%x)
-#### Octal Format Specifier 
+#### Octal Format Specifier (%o)
 
 ### How to add, subtract, divide, multiply in C
 
