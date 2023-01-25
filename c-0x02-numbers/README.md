@@ -73,3 +73,11 @@ float my_PI = 3.142;
 
 ```
 
+
+We would talk about the other data types later.
+
+
+
+### How to add, subtract, divide, multiply in C
+
+First we have to create a variable perform the arithmetic operations
