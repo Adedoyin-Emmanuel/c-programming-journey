@@ -171,3 +171,62 @@ int main(void){
 
     printf("%d",result);
 }
+
+
+```
+
+
+
+## Subtractions in C Programming Language
+
+```c
+
+#include <stdio.h>
+
+int main(void){
+
+    int x = 10;
+
+    int y = 50;
+    
+    int result = x - y;
+    //you could also create the 2 variables on the same line, they must be of the same data type
+
+    /*
+    eg 
+
+    int x = 10 , y = 50;
+
+    */
+
+    printf("%d",result);
+}
+```
+
+## Division in C Programming Language
+
+```c
+
+#include <stdio.h>
+
+int main(void){
+
+    int x = 10;
+
+    int y = 50;
+    
+    int result = x / y;
+    //you could also create the 2 variables on the same line, they must be of the same data type
+
+    /*
+    eg 
+
+    int x = 10 , y = 50;
+
+    */
+
+    printf("%d",result);
+}
+
+
+```
