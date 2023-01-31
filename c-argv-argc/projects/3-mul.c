@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 
-	int i, result = 0;
+	int i, result = 0 num_1, num_2;
 	
 	/*check if no argument was passed*/
 	if (!(argc > 1))
@@ -18,10 +18,9 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	for (i = 1; i < argc; i++)
-	{
-		result *= atoi(argv[i]);
-	}
+	num_1 = atoi(argv[1]);
+	num_2 = atoi(argv[2]);
+	result = num_1 * num_2;
 	printf("%d", result);
 	return (0);
 
