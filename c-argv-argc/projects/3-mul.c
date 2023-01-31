@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 
-	int i, result = 0 num_1, num_2;
+	int i, result = 0, num_1, num_2;
 	
 	/*check if no argument was passed*/
 	if (!(argc > 1))
