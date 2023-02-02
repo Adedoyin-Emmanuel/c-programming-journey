@@ -30,8 +30,7 @@ But what if the size of the array is something we are actually expecting from th
 
 We could do this
 
-```
-
+``` c
 #include <stdio.h>
 
 void main(void)
