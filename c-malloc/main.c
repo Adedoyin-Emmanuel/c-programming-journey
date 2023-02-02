@@ -8,7 +8,7 @@ int main(void)
     
     printf("Enter the array size\n");
 
-    scanf("%d",result);
+    scanf("%d",&result);
 
-    
+    printf("%d", result);
 }
