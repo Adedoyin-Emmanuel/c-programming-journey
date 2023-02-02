@@ -12,8 +12,8 @@ int main(void)
 
     int *ptr = (int*) malloc(sizeof(int) * result);
 
-    ptr[0] = 60;
+    int test = ptr[0] = 60;
 
 
-    printf("The first index of the pointer is %d", ptr[0]);
+    printf("The first index of the pointer is %d", test);
 }
