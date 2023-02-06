@@ -11,9 +11,10 @@ int main(void)
     scanf("%d",&result);
 
     int *ptr = (int*) malloc(sizeof(int) * result);
+   
 
-    int test = ptr[0] = 60;
-
-
-    printf("The first index of the pointer is %d", test);
+  
+    //printf("The first index of the pointer is %d\n", test);
+    printf("The address of this pointer is %p\n",&ptr);
+    printf("The address of the pointer first element is %p\n", &ptr[0]);
 }
